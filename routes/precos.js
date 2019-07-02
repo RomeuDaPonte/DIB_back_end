@@ -26,9 +26,18 @@ router.post("/", authAdmin, async (req, res) => {
 });
 
 router.get("/", async (req, res) => {
-  const precos = await Precos.findOne();
+  var precos = await Precos.findOne();
 
-  res.send(precos);
+  res.send(
+    _.pick(precos, [
+      "automacao",
+      "consultoria",
+      "desenvolvimento",
+      "margem",
+      "maquinacao",
+      "montagem"
+    ])
+  );
 });
 
 module.exports = router;

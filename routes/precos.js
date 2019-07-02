@@ -4,7 +4,7 @@ const _ = require("lodash"); //video 127
 const authAdmin = require("../middleware/authAdmin");
 const { Precos, validatePrecos } = require("../models/precos");
 
-router.post("/new", authAdmin, async (req, res) => {
+router.post("/", authAdmin, async (req, res) => {
   const { body: novosPrecos } = req;
 
   const { error } = validatePrecos(novosPrecos);
@@ -23,6 +23,12 @@ router.post("/new", authAdmin, async (req, res) => {
 
   const result = await precos.save();
   res.send(result);
+});
+
+router.get("/", async (req, res) => {
+  const precos = await Precos.findOne();
+
+  res.send(precos);
 });
 
 module.exports = router;

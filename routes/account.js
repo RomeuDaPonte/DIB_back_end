@@ -1,15 +1,12 @@
 const { User, validateUser, validateLogin } = require("../models/user");
-const auth = require("../middleware/auth");
-const { roleName } = require("../auxiliares/roleName");
+const authAdmin = require("../middleware/authAdmin");
+const { getAllRoles } = require("../auxiliares/roleName");
 const _ = require("lodash"); //video 127
 const bcrypt = require("bcrypt"); //video 128
 const express = require("express");
 const router = express.Router();
 
-router.post("/new", auth, async (req, res) => {
-  if (req.user.role !== roleName.admin)
-    return res.status(401).send("Não tem permissão para criar um novo user.");
-
+router.post("/new", authAdmin, async (req, res) => {
   const { error } = validateUser(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
@@ -36,6 +33,10 @@ router.post("/login", async (req, res) => {
 
   const token = user.generateAuthToken();
   res.send(token);
+});
+
+router.get("/roles", async (req, res) => {
+  res.send(getAllRoles());
 });
 
 module.exports = router;

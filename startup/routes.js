@@ -2,6 +2,7 @@ const express = require("express");
 const obras = require("../routes/obras");
 const orcamento = require("../routes/orcamento");
 const account = require("../routes/account");
+const precos = require("../routes/precos");
 const authentication = require("../middleware/auth");
 
 module.exports = function(app) {
@@ -10,4 +11,5 @@ module.exports = function(app) {
   app.use(authentication);
   app.use("/api/obras", obras);
   app.use("/api/orcamento", orcamento);
+  app.use("/api/precos", precos);
 };

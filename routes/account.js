@@ -35,8 +35,16 @@ router.post("/login", async (req, res) => {
   res.send(token);
 });
 
-router.get("/roles", async (req, res) => {
+router.get("/roles", authAdmin, async (req, res) => {
   res.send(getAllRoles());
+});
+
+router.get("/users", authAdmin, async (req, res) => {
+  res.send(
+    await User.find()
+      .select("name email role")
+      .sort("name")
+  );
 });
 
 module.exports = router;

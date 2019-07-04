@@ -18,7 +18,7 @@ router.post("/new", authAdmin, async (req, res) => {
   user.password = await bcrypt.hash(user.password, salt);
   await user.save();
 
-  res.send(_.pick(user, ["name", "email", "role"]));
+  res.send(_.pick(user, ["_id", "name", "email", "role"]));
 });
 
 router.post("/login", async (req, res) => {

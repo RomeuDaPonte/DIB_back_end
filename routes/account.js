@@ -1,4 +1,9 @@
-const { User, validateUser, validateLogin } = require("../models/user");
+const {
+  User,
+  validateUser,
+  validateLogin,
+  validateEditarUser
+} = require("../models/user");
 const authAdmin = require("../middleware/authAdmin");
 const { getAllRoles } = require("../auxiliares/roleName");
 const _ = require("lodash"); //video 127
@@ -45,6 +50,14 @@ router.get("/users", authAdmin, async (req, res) => {
       .select("name email role")
       .sort("name")
   );
+});
+
+router.put("/:id", authAdmin, async (req, res) => {
+  const { error } = validateEditarUser(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+
+  const user = await User.findById(req.params.id);
+  res.send(user);
 });
 
 module.exports = router;

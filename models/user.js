@@ -81,6 +81,21 @@ function validateLogin(req) {
   return Joi.validate(req, schema);
 }
 
+function validateEditarUser(req) {
+  const schema = {
+    role: Joi.any().when("password", {
+      is: Joi.string().required(),
+      then: Joi.any(),
+      otherwise: Joi.valid(roleName.socio, roleName.admin, roleName.geral) //vai para aqui se a password estiver vazia
+    }),
+    password: Joi.any()
+  };
+
+  console.log(req);
+
+  return Joi.validate(req, schema);
+}
+
 async function createAdminUser() {
   let user = await User.findOne({ email: "felix.francisco@dib4t.com" });
 
@@ -104,4 +119,5 @@ async function createAdminUser() {
 exports.User = User;
 exports.validateUser = validate;
 exports.validateLogin = validateLogin;
+exports.validateEditarUser = validateEditarUser;
 exports.createAdminUser = createAdminUser;

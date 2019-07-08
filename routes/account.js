@@ -52,6 +52,14 @@ router.get("/users", authAdmin, async (req, res) => {
   );
 });
 
+router.get("/:id", authAdmin, async (req, res) => {
+  const user = await User.findById(req.params.id);
+
+  if (!user) return res.status(404).send("not found!");
+
+  res.send(_.pick(user, ["_id", "name", "email", "role"]));
+});
+
 router.put("/:id", authAdmin, async (req, res) => {
   const { error } = validateEditarUser(req.body);
   if (error) return res.status(400).send(error.details[0].message);

@@ -67,9 +67,12 @@ router.put("/:id", authAdmin, async (req, res) => {
   const user = await User.findById(req.params.id);
   if (!user) return res.status(404).send("not found!");
 
-  user.role = req.body.role;
-  const salt = await bcrypt.genSalt(10);
-  user.password = await bcrypt.hash(user.password, salt);
+  if (req.body.role) user.role = req.body.role;
+  else if (req.body.password) {
+    const salt = await bcrypt.genSalt(10);
+    user.password = await bcrypt.hash(user.password, salt);
+  }
+
   await user.save();
 
   res.send(_.pick(user, ["_id", "name", "email", "role"]));

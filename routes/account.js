@@ -57,7 +57,14 @@ router.put("/:id", authAdmin, async (req, res) => {
   if (error) return res.status(400).send(error.details[0].message);
 
   const user = await User.findById(req.params.id);
-  res.send(user);
+  if (!user) return res.status(404).send("not found!");
+
+  user.role = req.body.role;
+  const salt = await bcrypt.genSalt(10);
+  user.password = await bcrypt.hash(user.password, salt);
+  await user.save();
+
+  res.send(_.pick(user, ["_id", "name", "email", "role"]));
 });
 
 module.exports = router;

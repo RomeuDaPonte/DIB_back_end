@@ -426,3 +426,9 @@
 {"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-07-06T07:55:19.704Z"}
 {"level":"info","message":"A correr na porta 3001","timestamp":"2019-07-06T07:56:11.123Z"}
 {"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-07-06T07:56:12.160Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-07-08T06:47:27.508Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-07-08T06:47:28.543Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-07-08T06:47:49.756Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-07-08T06:47:50.796Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-07-08T06:50:21.243Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-07-08T06:50:22.267Z"}

@@ -91,8 +91,6 @@ function validateEditarUser(req) {
     password: Joi.any()
   };
 
-  console.log(req);
-
   return Joi.validate(req, schema);
 }
 

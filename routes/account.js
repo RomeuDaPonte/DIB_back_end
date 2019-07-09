@@ -34,7 +34,7 @@ router.post("/login", async (req, res) => {
   if (!user) return res.status(400).send("Invalid email or password.");
 
   const validPassword = await bcrypt.compare(req.body.password, user.password);
-  if (!validPassword) return res.status(400).send("Invalid email or password.");
+  if (!validPassword) return res.status(400).send("Password incorreta!");
 
   const token = user.generateAuthToken();
   res.send(token);
@@ -69,12 +69,12 @@ router.put("/:id", authAdmin, async (req, res) => {
 
   if (req.body.role) user.role = req.body.role;
   else if (req.body.password) {
+    delete user.password;
     const salt = await bcrypt.genSalt(10);
-    user.password = await bcrypt.hash(user.password, salt);
+    user.password = await bcrypt.hash(req.body.password, salt);
   }
 
   await user.save();
-
   res.send(_.pick(user, ["_id", "name", "email", "role"]));
 });
 

@@ -65,7 +65,7 @@ router.put("/:id", authAdmin, async (req, res) => {
   if (error) return res.status(400).send(error.details[0].message);
 
   const user = await User.findById(req.params.id);
-  if (!user) return res.status(404).send("not found!");
+  if (!user) return res.status(404).send("Utilizador não exista na bd");
 
   if (req.body.role) user.role = req.body.role;
   else if (req.body.password) {

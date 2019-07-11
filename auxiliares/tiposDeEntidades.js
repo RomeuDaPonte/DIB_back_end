@@ -11,11 +11,7 @@ exports.tiposDeEntidades = {
 };
 
 function allTiposDeEntidades() {
-  return [
-    tiposDeEntidades.cliente,
-    tiposDeEntidades.fornecedor,
-    tiposDeEntidades.clienteFornecedor
-  ];
+  return [tipo.cliente, tipo.fornecedor, tipo.clienteFornecedor];
 }
 
 exports.getAllTiposDeEntidades = allTiposDeEntidades;

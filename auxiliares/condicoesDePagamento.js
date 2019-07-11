@@ -16,11 +16,11 @@ exports.condicoesDePagamento = {
 
 function allCondicoesDePagamento() {
   return [
-    condicoesDePagamento.prontoPagamento,
-    condicoesDePagamento.trintaDias,
-    condicoesDePagamento.sessentaDias,
-    condicoesDePagamento.noventaDias,
-    condicoesDePagamento.quarentaMaisSessenta
+    condicoes.prontoPagamento,
+    condicoes.trintaDias,
+    condicoes.sessentaDias,
+    condicoes.noventaDias,
+    condicoes.quarentaMaisSessenta
   ];
 }
 

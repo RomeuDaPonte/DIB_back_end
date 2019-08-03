@@ -54,4 +54,12 @@ router.get("/condicoesdepagamento", async (req, res) => {
   res.send(getAllCondicoesDePagamento());
 });
 
+router.get("/:id", async (req, res) => {
+  const entidade = await Entidade.findById(req.params.id);
+
+  if (!entidade) return res.status(400).send("entidade não encontrada");
+
+  res.send(entidade);
+});
+
 module.exports = router;

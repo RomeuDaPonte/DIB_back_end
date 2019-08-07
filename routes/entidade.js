@@ -5,6 +5,7 @@ const {
 const { Entidade, validateEntidade } = require("../models/entidade");
 const express = require("express");
 const router = express.Router();
+const _ = require("lodash");
 
 router.post("/", async (req, res) => {
   const { error } = validateEntidade(req.body);
@@ -39,7 +40,18 @@ router.put("/:id", async (req, res) => {
 
   await entidade.save();
 
-  res.send(entidade);
+  res.send(
+    _.pick(entidade, [
+      "_id",
+      "name",
+      "nif",
+      "morada",
+      "codigoPostal0",
+      "localidade",
+      "condicoesDePagamento",
+      "tipo"
+    ])
+  );
 });
 
 router.get("/getAll", async (req, res) => {

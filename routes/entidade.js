@@ -66,6 +66,18 @@ router.get("/condicoesdepagamento", async (req, res) => {
   res.send(getAllCondicoesDePagamento());
 });
 
+router.get("/search", async (req, res) => {
+  const entidades = await Entidade.find().and([
+    { name: new RegExp(`^${req.body.name}`, "i") },
+    { nif: new RegExp(`^${req.body.nif}`, "i") },
+    { localidade: new RegExp(`^${req.body.localidade}`, "i") },
+    { morada: new RegExp(`^${req.body.morada}`, "i") },
+    { codigoPostal: new RegExp(`^${req.body.codigoPostal}`, "i") }
+  ]);
+
+  res.send(entidades);
+});
+
 router.get("/:id", async (req, res) => {
   const entidade = await Entidade.findById(req.params.id);
 

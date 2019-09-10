@@ -66,7 +66,7 @@ router.get("/condicoesdepagamento", async (req, res) => {
   res.send(getAllCondicoesDePagamento());
 });
 
-router.get("/search", async (req, res) => {
+router.post("/search", async (req, res) => {
   const entidades = await Entidade.find().and([
     { name: new RegExp(`^${req.body.name}`, "i") },
     { nif: new RegExp(`^${req.body.nif}`, "i") },

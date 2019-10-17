@@ -15,3 +15,4 @@ function allTiposDeEntidades() {
 }
 
 exports.getAllTiposDeEntidades = allTiposDeEntidades;
+exports.tipoDeEntidade = tipo;

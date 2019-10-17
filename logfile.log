@@ -268,3 +268,370 @@
 {"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-09T14:11:54.952Z"}
 {"level":"info","message":"A correr na porta 3001","timestamp":"2019-09-09T14:13:25.709Z"}
 {"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-09T14:13:26.741Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-09-09T14:16:32.439Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-09T14:16:33.469Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-09-09T15:15:36.163Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-09T15:15:37.188Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-09-10T06:14:10.561Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-10T06:14:11.594Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-09-10T07:26:48.807Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-10T07:26:49.851Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-09-10T07:36:41.702Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-10T07:36:42.737Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-09-10T07:59:56.001Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-09-10T07:59:57.028Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T10:15:04.639Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T10:15:05.666Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T10:57:28.222Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T10:57:29.273Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T13:21:50.193Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T13:21:51.224Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T15:23:25.621Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T15:23:26.647Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T15:36:13.037Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T15:36:14.063Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T16:08:25.084Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T16:08:26.110Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T17:48:38.109Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T17:48:39.151Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-01T18:44:32.828Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-01T18:44:33.854Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-02T05:46:37.577Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-02T05:46:38.609Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-02T08:27:25.427Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-02T08:27:26.455Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-02T13:26:29.968Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-02T13:26:30.996Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-02T15:38:16.177Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-02T15:38:17.229Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-03T06:05:09.194Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-03T06:05:10.240Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-03T07:50:36.844Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-03T07:50:37.882Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-04T06:54:17.383Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-04T06:54:18.409Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-04T08:05:35.276Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-04T08:05:36.324Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-04T14:40:23.167Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-04T14:40:24.195Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-08T06:18:33.590Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-08T06:18:34.613Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T06:04:50.375Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T06:04:51.430Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T06:05:39.666Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T06:05:40.705Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T07:03:49.519Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T07:03:50.555Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T07:05:17.405Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T07:05:18.431Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T07:27:55.337Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T07:27:56.380Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T07:36:03.292Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T07:36:04.319Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T07:38:09.903Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T07:38:10.926Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T07:38:13.073Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T07:38:14.113Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T08:06:00.050Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T08:06:01.112Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T08:07:06.127Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T08:07:07.165Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T08:11:11.386Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T08:11:12.413Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T08:22:22.145Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T08:22:23.179Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T08:22:31.565Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T08:22:32.594Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:00:36.738Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:00:37.835Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:17:41.762Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:17:42.790Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:19:07.823Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:19:08.848Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:19:47.790Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:19:48.816Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:20:26.370Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:20:27.392Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:20:35.126Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:20:36.161Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:21:06.209Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:21:07.241Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:21:21.750Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:21:22.790Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:22:35.847Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:22:36.888Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:23:00.955Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:23:01.981Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:23:37.404Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:23:38.431Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:24:21.529Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:24:22.555Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:26:01.421Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:26:02.468Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:26:40.459Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:26:41.512Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:27:15.666Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:27:16.690Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:27:42.860Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:27:43.886Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T14:32:14.082Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T14:32:15.111Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:12:27.511Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:12:28.563Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:12:35.076Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:12:36.104Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:13:06.190Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:13:07.218Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:13:43.002Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:13:44.030Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:15:18.889Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:15:19.915Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:15:52.037Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:15:53.065Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:15:55.709Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:15:56.742Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:16:30.293Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:16:31.319Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:18:37.151Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:18:38.178Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:19:00.501Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:19:01.542Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:19:12.047Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:19:13.070Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-11T15:28:00.530Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-11T15:28:01.579Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:32:55.340Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:32:56.374Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:34:36.199Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:34:37.227Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:51:44.920Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:51:46.979Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:51:48.021Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:53:35.669Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:53:36.698Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:54:19.221Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:54:20.250Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:54:30.875Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:54:31.903Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:54:50.607Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:54:51.635Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:55:20.516Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:55:21.538Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:56:02.013Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:56:03.069Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:56:56.136Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:56:57.188Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:58:23.963Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:58:24.990Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:59:05.332Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:59:06.358Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T05:59:42.139Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T05:59:43.171Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:00:58.122Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:00:59.146Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:01:25.495Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:01:26.523Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:02:25.433Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:02:26.473Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:02:47.201Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:02:48.228Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:05:40.559Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:05:41.587Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:30:47.332Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:30:48.372Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:35:36.169Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:35:37.199Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:35:39.107Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:35:40.135Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:37:26.203Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T06:37:27.230Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T06:59:59.732Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:00:00.758Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:01:31.851Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:01:32.898Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:02:32.724Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:02:33.769Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:03:47.844Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:03:48.870Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:11:11.358Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:11:12.388Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:11:19.484Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:11:20.511Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:18:31.717Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:18:32.743Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:19:17.937Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:19:18.963Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:20:26.486Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:20:27.512Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:25:18.500Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:25:19.525Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:33:39.183Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:33:40.212Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:35:50.624Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:35:51.651Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:45:31.552Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:45:32.584Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:46:43.780Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:46:44.818Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:47:20.900Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:47:21.923Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:47:54.836Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:47:55.858Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T07:49:29.149Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T07:49:30.177Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T15:35:57.273Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T15:35:58.299Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T15:42:28.502Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T15:42:29.527Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T15:43:55.929Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T15:43:56.957Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T15:45:09.115Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T15:45:10.158Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T15:47:07.990Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T15:47:09.016Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T15:53:15.103Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T15:53:16.149Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:03:45.469Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:03:46.513Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:05:42.867Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:05:43.889Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:06:39.489Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:06:40.514Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:07:15.538Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:07:16.563Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:08:57.984Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:08:59.017Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:10:10.359Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:10:11.384Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:11:20.989Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:11:22.014Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:24:00.139Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:24:01.168Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:24:20.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:24:21.108Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:24:37.122Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:24:38.157Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:26:53.474Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:26:54.500Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:27:53.114Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:27:54.138Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-12T16:28:22.689Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-12T16:28:23.725Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:47:43.570Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:47:44.605Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:52:19.013Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:52:20.051Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:53:05.480Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:53:06.503Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:54:26.645Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:54:27.670Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:55:06.115Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:55:07.142Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:56:22.017Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:56:23.043Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:57:03.622Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:57:04.648Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T13:58:26.761Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T13:58:27.780Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:02:47.307Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:02:48.333Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:02:57.464Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:02:58.491Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:04:28.154Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:04:29.178Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:04:46.326Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:04:47.350Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:05:00.038Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:05:01.059Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:09:13.104Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:09:14.146Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:10:06.815Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:10:07.839Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:11:08.164Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:11:09.214Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:12:10.114Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:12:11.162Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:14:58.941Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:14:59.965Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:16:20.023Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:16:21.053Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:18:15.792Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:18:16.818Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:19:43.590Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:19:44.640Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:26:50.157Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:26:51.179Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:28:42.422Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:28:43.460Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-15T14:44:26.751Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-15T14:44:27.775Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T07:41:12.060Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T07:41:13.091Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:07:56.196Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:07:57.221Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:09:16.545Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:09:17.596Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:09:43.643Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:09:44.667Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:11:31.668Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:11:32.728Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:12:17.870Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:12:18.903Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:13:52.808Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:13:53.855Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:14:13.887Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:14:14.912Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:15:53.607Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:15:54.629Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:16:25.916Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:16:26.947Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:16:43.239Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:16:44.265Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:18:22.810Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:18:23.841Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:18:35.952Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:18:36.978Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:20:35.317Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:20:36.368Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:21:44.476Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:21:45.523Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:24:22.295Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:24:23.343Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:24:56.012Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:24:57.059Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:25:26.519Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:25:27.543Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-16T08:27:09.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-16T08:27:10.111Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T05:48:07.104Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T05:48:08.129Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T05:55:11.069Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T05:55:12.105Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T05:55:25.535Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T05:55:26.553Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T05:56:09.786Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T05:56:10.812Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T05:56:55.775Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T05:56:56.801Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:02:26.106Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:02:27.157Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:03:33.006Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:03:34.049Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:03:36.871Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:03:37.926Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:05:20.111Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:05:21.158Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:05:30.867Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:05:31.893Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:05:51.811Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:05:52.843Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:06:11.344Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:06:12.369Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:06:41.284Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:06:42.328Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:07:51.340Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:07:52.378Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:07:58.939Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:07:59.965Z"}
+{"level":"info","message":"A correr na porta 3001","timestamp":"2019-10-17T06:09:14.118Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dib4t...","timestamp":"2019-10-17T06:09:15.156Z"}

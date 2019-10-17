@@ -13,8 +13,7 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    minlength: 10,
-    unique: true
+    minlength: 10
   },
   password: {
     required: true,
@@ -115,6 +114,7 @@ async function createAdminUser() {
 }
 
 exports.User = User;
+exports.userSchema = userSchema;
 exports.validateUser = validate;
 exports.validateLogin = validateLogin;
 exports.validateEditarUser = validateEditarUser;

@@ -1,11 +1,14 @@
-const { getAllTiposDeEntidades } = require("../auxiliares/tiposDeEntidades");
+const express = require("express");
+const router = express.Router();
+const _ = require("lodash");
+const {
+  getAllTiposDeEntidades,
+  tiposDeEntidades
+} = require("../auxiliares/tiposDeEntidades");
 const {
   getAllCondicoesDePagamento
 } = require("../auxiliares/condicoesDePagamento");
 const { Entidade, validateEntidade } = require("../models/entidade");
-const express = require("express");
-const router = express.Router();
-const _ = require("lodash");
 
 router.post("/", async (req, res) => {
   const { error } = validateEntidade(req.body);
@@ -60,8 +63,8 @@ router.get("/getAll", async (req, res) => {
 
 router.get("/getAllClientes", async (req, res) => {
   const clientes = await Entidade.find()
-    .or({ tipo: "Cliente" })
-    .or({ tipo: "Cliente/Fornecedor" })
+    .or({ tipo: tiposDeEntidades.cliente })
+    .or({ tipo: tiposDeEntidades.clienteFornecedor })
     .sort({ name: 1 })
     .select({ name: 1, _id: 1 });
   res.send(clientes);

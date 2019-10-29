@@ -58,6 +58,15 @@ router.get("/getAll", async (req, res) => {
   res.send(await Entidade.find().sort("name"));
 });
 
+router.get("/getAllClientes", async (req, res) => {
+  const clientes = await Entidade.find()
+    .or({ tipo: "Cliente" })
+    .or({ tipo: "Cliente/Fornecedor" })
+    .sort({ name: 1 })
+    .select({ name: 1, _id: 1 });
+  res.send(clientes);
+});
+
 router.get("/getTipos", async (req, res) => {
   res.send(getAllTiposDeEntidades());
 });

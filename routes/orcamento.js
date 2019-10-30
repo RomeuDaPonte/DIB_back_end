@@ -44,6 +44,14 @@ router.post("/", async (req, res) => {
   res.send(orcamento);
 });
 
+router.get("/getall", async (req, res) => {
+  res.send(
+    await Orcamento.find()
+      .sort({ data: -1 })
+      .select({ __v: 0 })
+  );
+});
+
 router.post("/downloadpdf", (req, res) => {
   let documentDefinition = generatePdf(req.body);
 

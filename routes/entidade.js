@@ -67,6 +67,7 @@ router.get("/getAllClientes", async (req, res) => {
     .or({ tipo: tiposDeEntidades.clienteFornecedor })
     .sort({ name: 1 })
     .select({ name: 1, _id: 1 });
+
   res.send(clientes);
 });
 

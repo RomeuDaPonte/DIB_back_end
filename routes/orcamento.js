@@ -41,7 +41,11 @@ router.post("/", async (req, res) => {
   });
   orcamento = await orcamento.save();
 
-  res.send(orcamento);
+  res.send(
+    await Orcamento.findById(orcamento._id)
+      .populate("cliente")
+      .populate("elaboradoPor")
+  );
 });
 
 router.get("/getall", async (req, res) => {

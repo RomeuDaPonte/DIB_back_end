@@ -47,6 +47,8 @@ router.post("/", async (req, res) => {
 router.get("/getall", async (req, res) => {
   res.send(
     await Orcamento.find()
+      .populate("cliente")
+      .populate("elaboradoPor")
       .sort({ data: -1 })
       .select({ __v: 0 })
   );

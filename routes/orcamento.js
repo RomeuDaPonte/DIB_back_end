@@ -58,6 +58,16 @@ router.get("/getall", async (req, res) => {
   );
 });
 
+router.get("/:id", async (req, res) => {
+  const orc = await Orcamento.findById(req.params.id)
+    .populate("cliente")
+    .populate("elaboradoPor");
+
+  if (!orc) return res.status(400).send("Orcamento não existe!");
+
+  res.send(orc);
+});
+
 router.post("/downloadpdf", (req, res) => {
   let documentDefinition = generatePdf(req.body);
 

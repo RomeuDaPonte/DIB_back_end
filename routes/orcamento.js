@@ -7,7 +7,8 @@ pdfMake.vfs = vfsFonts.pdfMake.vfs;
 const {
   Orcamento,
   validateNovoOrcamento,
-  getNumeroDoOrcamento
+  getNumeroDoOrcamento,
+  validateEditarOrcamento
 } = require("../models/orcamentoDadosGerais");
 const { Entidade } = require("../models/entidade");
 const { User } = require("../models/user");
@@ -40,6 +41,40 @@ router.post("/", async (req, res) => {
     numero: getNumeroDoOrcamento(orcamentosRealizadosEsteAno)
   });
   orcamento = await orcamento.save();
+
+  res.send(
+    await Orcamento.findById(orcamento._id)
+      .populate("cliente")
+      .populate("elaboradoPor")
+  );
+});
+
+router.put("/:id", async (req, res) => {
+  const orcamento = await Orcamento.findById(req.body.orcamentoId);
+  if (!orcamento)
+    return res.status(400).send("Orçamento não existe na base de dados!");
+
+  const { error } = validateEditarOrcamento(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+
+  const entidade = await Entidade.findById(req.body.clienteId);
+  if (!entidade) return res.status(400).send("Cliente não existe!");
+
+  if (entidade.tipo === tipoDeEntidade.fornecedor)
+    return res.send("Entidade registada como fornecedor!");
+
+  const userCriadorDoOrcamento = await User.findById(req.body.elaboradoPorId);
+  if (!userCriadorDoOrcamento)
+    return res.status(400).send("Erro interno relacionado com user!");
+
+  orcamento.set({
+    cliente: req.body.clienteId,
+    elaboradoPor: req.body.elaboradoPorId,
+    descritivo: req.body.descritivo,
+    tecnicoResponsavel: req.body.tecnicoResponsavel
+  });
+
+  await orcamento.save();
 
   res.send(
     await Orcamento.findById(orcamento._id)

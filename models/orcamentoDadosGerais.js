@@ -69,6 +69,19 @@ function validateNovoOrcamento(req) {
   return Joi.validate(req, schema);
 }
 
+function validateEditarOrcamento(req) {
+  const schema = {
+    orcamentoId: Joi.any(),
+    clienteId: Joi.string().required(),
+    elaboradoPorId: Joi.string().required(),
+    descritivo: Joi.string().required(),
+    tecnicoResponsavel: Joi.string().required()
+  };
+
+  return Joi.validate(req, schema);
+}
+
 exports.Orcamento = Orcamento;
 exports.validateNovoOrcamento = validateNovoOrcamento;
 exports.getNumeroDoOrcamento = getNumeroDoOrcamento;
+exports.validateEditarOrcamento = validateEditarOrcamento;

@@ -1,6 +1,5 @@
 const mongose = require("mongoose");
 const Joi = require("joi");
-const { userSchema } = require("./user");
 
 const orcamentoSchema = new mongose.Schema({
   cliente: {

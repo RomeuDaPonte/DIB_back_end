@@ -50,7 +50,7 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", async (req, res) => {
-  const orcamento = await Orcamento.findById(req.body.orcamentoId);
+  const orcamento = await Orcamento.findById(req.params.id);
   if (!orcamento)
     return res.status(400).send("Orçamento não existe na base de dados!");
 

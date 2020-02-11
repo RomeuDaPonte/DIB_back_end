@@ -49,7 +49,7 @@ router.put("/:id", async (req, res) => {
       "name",
       "nif",
       "morada",
-      "codigoPostal0",
+      "codigoPostal",
       "localidade",
       "condicoesDePagamento",
       "tipo"
@@ -66,7 +66,16 @@ router.get("/getAllClientes", async (req, res) => {
     .or({ tipo: tiposDeEntidades.cliente })
     .or({ tipo: tiposDeEntidades.clienteFornecedor })
     .sort({ name: 1 })
-    .select({ name: 1, _id: 1 });
+    .select({
+      name: 1,
+      _id: 1,
+      tipo: 1,
+      nif: 1,
+      morada: 1,
+      codigoPostal: 1,
+      localidade: 1,
+      condicoesDePagamento: 1
+    });
 
   res.send(clientes);
 });

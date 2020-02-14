@@ -1,5 +1,6 @@
 const mongose = require("mongoose");
 const Joi = require("joi");
+const { condicoesDePagamento } = require("../auxiliares/condicoesDePagamento");
 
 const orcamentoSchema = new mongose.Schema({
   cliente: {
@@ -37,6 +38,15 @@ const orcamentoSchema = new mongose.Schema({
   },
   terminado: {
     type: Boolean
+  },
+  condicoesDePagamento: {
+    type: String
+  },
+  margem: {
+    type: Number
+  },
+  totalFinal: {
+    type: Number
   }
 });
 
@@ -74,7 +84,19 @@ function validateEditarOrcamento(req) {
     clienteId: Joi.string().required(),
     elaboradoPorId: Joi.string().required(),
     descritivo: Joi.string().required(),
-    tecnicoResponsavel: Joi.string().required()
+    tecnicoResponsavel: Joi.string().required(),
+    condicoesDePagamento: Joi.string()
+      .valid(
+        condicoesDePagamento.prontoPagamento,
+        condicoesDePagamento.trintaDias,
+        condicoesDePagamento.sessentaDias,
+        condicoesDePagamento.noventaDias,
+        condicoesDePagamento.quarentaMaisSessenta
+      )
+      .required(),
+    diasNecessariosParaRealizarObra: Joi.number().required(),
+    margem: Joi.number().required(),
+    totalFinal: Joi.number().required()
   };
 
   return Joi.validate(req, schema);

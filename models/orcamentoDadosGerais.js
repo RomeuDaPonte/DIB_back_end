@@ -34,7 +34,7 @@ const orcamentoSchema = new mongose.Schema({
   },
   data: {
     type: Date,
-    default: Date.now
+    default: Date.now 
   },
   terminado: {
     type: Boolean

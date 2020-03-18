@@ -33,7 +33,8 @@ const Tarefa = mongose.model("Tarefa", tarefaSchema);
 
 function validateNovaTarefa(req) {
   const schema = {
-    orcamentoId: Joi.string().required(),
+    orcamentoId: Joi.any(),
+    tipoDeTarefa: Joi.string(),
     descricao: Joi.string().required(),
     quantidade: Joi.number().required(),
     custoUnitario: Joi.number().required(),
@@ -44,10 +45,9 @@ function validateNovaTarefa(req) {
 }
 
 function totalEValido(req) {
-  const total = Math.round(req.total);
-  const totalRecebido = Math.round(req.custoUnitario * req.quantidade);
-
-  return total === totalRecebido;
+  return (
+    Math.trunc(req.total) === Math.trunc(req.custoUnitario * req.quantidade)
+  );
 }
 
 exports.Tarefa = Tarefa;

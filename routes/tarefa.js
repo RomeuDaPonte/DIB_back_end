@@ -28,7 +28,6 @@ router.post("/:orcamentoId", async (req, res) => {
 });
 
 router.get("/getallfororcamento/:orcamentoId", async (req, res) => {
-  console.log(req.params.orcamentoId);
   const orc = await Orcamento.findById(req.params.orcamentoId);
 
   if (!orc)

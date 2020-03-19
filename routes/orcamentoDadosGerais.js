@@ -68,14 +68,7 @@ router.put("/:id", async (req, res) => {
     return res.status(400).send("Erro interno relacionado com user!");
 
   orcamento.set({
-    cliente: req.body.clienteId,
-    elaboradoPor: req.body.elaboradoPorId,
-    descritivo: req.body.descritivo,
-    tecnicoResponsavel: req.body.tecnicoResponsavel,
-    condicoesDePagamento: req.body.condicoesDePagamento,
-    diasNecessariosParaRealizarObra: req.body.diasNecessariosParaRealizarObra,
-    margem: req.body.margem,
-    totalFinal: req.body.totalFinal
+    ...req.body
   });
 
   await orcamento.save();

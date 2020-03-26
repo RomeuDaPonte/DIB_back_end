@@ -33,6 +33,7 @@ const Tarefa = mongose.model("Tarefa", tarefaSchema);
 
 function validateNovaTarefa(req) {
   const schema = {
+    tarefaId: Joi.any(),
     orcamentoId: Joi.any(),
     tipoDeTarefa: Joi.string(),
     descricao: Joi.string().required(),

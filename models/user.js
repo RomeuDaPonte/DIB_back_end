@@ -102,10 +102,10 @@ async function createAdminUser() {
   }
 
   const adminUser = new User({
-    name: "Felix Francisco",
+    name: "User Logado",
     role: "Administrador",
-    email: "felix.francisco@dib4t.com",
-    password: "$2b$10$imtB1ndHXQot4FMUcXG0W.a.cniWhZDkjzbMA9wg0.julrkzd7luS"
+    email: "userlogado@gmail.com",
+    password: "$2b$10$fSMIGpdKqJ8Eqmkf4NAWEu0hGnkNRaexlLWKeI0kSuMFdnrryjUKy"
   });
 
   await adminUser.save();
